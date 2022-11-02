@@ -1,0 +1,990 @@
+fileFormatVersion: 2
+guid: e32990bea9daf994fa7a1afc883807d3
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 5568800134379949421
+    second: Armature|GeurillaDroid_Idle_Animation
+  - first:
+      74: -311936154608797454
+    second: Armature|GuerillaDroid_ArmsCrossed_Pose
+  - first:
+      74: -6187004295625823772
+    second: Armature|GuerillaDroid_IronMan_Pose
+  - first:
+      74: -4861994990087741473
+    second: Armature|GuerillaDroid_Standard_Pose
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: GeurillaDroid_Parts(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Root
+      position: {x: 0, y: 0.010792877, z: 0}
+      rotation: {x: -0, y: 0.0000000045474735, z: -2.220446e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: Hips
+      position: {x: -0, y: 0.0020837837, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: -0, y: 0.0027118754, z: 0}
+      rotation: {x: -1.5509608e-17, y: -0.0000001318767, z: 0.0000000034106054, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000005}
+    - name: Neck
+      parentName: Spine2
+      position: {x: 1.16415315e-11, y: 0.0022581485, z: 9.895302e-11}
+      rotation: {x: 0.10637924, y: 0.000000008341146, z: -0.00000002890461, w: 0.99432564}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Neck_end
+      parentName: Neck
+      position: {x: -0, y: 0.0016030851, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavical_L
+      parentName: Spine2
+      position: {x: 1.16415315e-11, y: 0.0022581485, z: 9.895302e-11}
+      rotation: {x: 0.0008297235, y: -0.00094163, z: 0.67833096, w: 0.73475546}
+      scale: {x: 1.0000045, y: 1.0000002, z: 1.0000017}
+    - name: Shoulder_L
+      parentName: Clavical_L
+      position: {x: 0.0000000014388933, y: 0.0022388168, z: -3.7252902e-11}
+      rotation: {x: -0.0066003706, y: -0.004028146, z: -0.02968292, w: 0.9995295}
+      scale: {x: 1.0000345, y: 1.000016, z: 1.0000017}
+    - name: UpperArm_L
+      parentName: Shoulder_L
+      position: {x: -0.00029920612, y: 0.0005872368, z: 0.00000074948184}
+      rotation: {x: -0.012355039, y: 0.017571868, z: 0.08730139, w: 0.99595034}
+      scale: {x: 1.0000689, y: 1.0000305, z: 1.0000068}
+    - name: LowerArm_L
+      parentName: UpperArm_L
+      position: {x: -1.11758706e-10, y: 0.0037613525, z: -2.6077032e-10}
+      rotation: {x: -0.001492669, y: -0.000006422401, z: 0.027591784, w: 0.9996182}
+      scale: {x: 1.0000443, y: 0.9999963, z: 0.9999943}
+    - name: Hand_L
+      parentName: LowerArm_L
+      position: {x: 3.3323885e-11, y: 0.002917865, z: 3.72529e-10}
+      rotation: {x: -6.984919e-10, y: -0.00000013613506, z: -0.0000000015406121, w: 1}
+      scale: {x: 1.0000389, y: 1.0000435, z: 0.99999195}
+    - name: Index1_L
+      parentName: Hand_L
+      position: {x: 0.00015190846, y: 0.0010387506, z: 0.00042141095}
+      rotation: {x: 0.0053947256, y: -0.000018743596, z: -0.012635259, w: 0.9999057}
+      scale: {x: 1.0000376, y: 1.0000441, z: 0.9999991}
+    - name: Index2_L
+      parentName: Index1_L
+      position: {x: 0.000000001117587, y: 0.00083946256, z: 9.3132255e-12}
+      rotation: {x: 0.0057794177, y: 0.0014273205, z: 0.03888707, w: 0.9992259}
+      scale: {x: 1.0001134, y: 1.0000215, z: 1.0000176}
+    - name: Index3_L
+      parentName: Index2_L
+      position: {x: -0.0000000010803342, y: 0.00062930887, z: 6.705522e-10}
+      rotation: {x: -0.0024062933, y: 0.004514622, z: 0.03634863, w: 0.99932605}
+      scale: {x: 1.0002458, y: 0.9999244, z: 0.9999977}
+    - name: Index4_L
+      parentName: Index3_L
+      position: {x: 0.0000000012665987, y: 0.0004616518, z: 1.8626451e-11}
+      rotation: {x: -0.035109013, y: 0.001190694, z: 0.2333818, w: 0.9717505}
+      scale: {x: 1.0007365, y: 0.999225, z: 1.0000117}
+    - name: Index4_L_end
+      parentName: Index4_L
+      position: {x: -0, y: 0.00048091714, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Middle1_L
+      parentName: Hand_L
+      position: {x: 0.00016803957, y: 0.0009991835, z: 0.00009847194}
+      rotation: {x: 0.00063996937, y: 0.0000020585758, z: -0.012812184, w: 0.9999177}
+      scale: {x: 1.0000364, y: 1.000044, z: 0.9999996}
+    - name: Middle2_L
+      parentName: Middle1_L
+      position: {x: 0.0000000013411044, y: 0.0008397093, z: -6.426126e-10}
+      rotation: {x: -0.002554558, y: 0.00016314715, z: 0.038932607, w: 0.9992386}
+      scale: {x: 1.0000081, y: 0.9999351, z: 0.99999887}
+    - name: Middle3_L
+      parentName: Middle2_L
+      position: {x: -2.6077032e-10, y: 0.00082193624, z: -1.9557773e-10}
+      rotation: {x: -0.0015130752, y: -0.0003935227, z: 0.035571527, w: 0.999366}
+      scale: {x: 1.0002918, y: 0.9998976, z: 1.0000077}
+    - name: Middle4_L
+      parentName: Middle3_L
+      position: {x: -5.9604643e-10, y: 0.0005756514, z: 3.259629e-10}
+      rotation: {x: -0.020149438, y: -0.00227094, z: 0.2195262, w: 0.97539586}
+      scale: {x: 1.0007306, y: 0.9992798, z: 0.9999777}
+    - name: Middle4_L_end
+      parentName: Middle4_L
+      position: {x: -0, y: 0.00048091714, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ring1_L
+      parentName: Hand_L
+      position: {x: 0.00018115982, y: 0.0010382658, z: -0.00022541563}
+      rotation: {x: -0.0026879837, y: -0.00020471842, z: -0.018822081, w: 0.9998192}
+      scale: {x: 1.0000844, y: 1.0000788, z: 0.99999654}
+    - name: Ring2_L
+      parentName: Ring1_L
+      position: {x: 2.9802322e-10, y: 0.00083946204, z: 5.681068e-10}
+      rotation: {x: 0.0065295785, y: -0.00084047863, z: 0.038927495, w: 0.9992204}
+      scale: {x: 1.000108, y: 0.9999913, z: 1.0000113}
+    - name: Ring3_L
+      parentName: Ring2_L
+      position: {x: 3.7252902e-11, y: 0.000562064, z: -9.0338287e-10}
+      rotation: {x: 0.0012504873, y: 0.003002914, z: 0.03584314, w: 0.99935216}
+      scale: {x: 1.0002348, y: 0.99982065, z: 0.9999978}
+    - name: Ring4_L
+      parentName: Ring3_L
+      position: {x: -6.705522e-10, y: 0.00047966398, z: -2.1420418e-10}
+      rotation: {x: 0.02102834, y: 0.014737133, z: 0.22528362, w: 0.97395474}
+      scale: {x: 1.0011522, y: 0.9988466, z: 0.99996907}
+    - name: Ring4_L_end
+      parentName: Ring4_L
+      position: {x: -0, y: 0.00048091682, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pinky1_L
+      parentName: Hand_L
+      position: {x: 0.0001325915, y: 0.0010963987, z: -0.00048430453}
+      rotation: {x: -0.013527769, y: -0.0013580424, z: -0.03136758, w: 0.9994155}
+      scale: {x: 1.0000538, y: 1.0000646, z: 0.9999939}
+    - name: Pinky2_L
+      parentName: Pinky1_L
+      position: {x: -0.0000000015646219, y: 0.00068306935, z: -5.5879353e-11}
+      rotation: {x: 0.023191651, y: -0.0043609696, z: 0.032597613, w: 0.99919}
+      scale: {x: 1.0000179, y: 0.99985623, z: 1.0000949}
+    - name: Pinky3_L
+      parentName: Pinky2_L
+      position: {x: 0.0000000013038516, y: 0.00046750894, z: 1.11758706e-10}
+      rotation: {x: 0.009379017, y: 0.0068967557, z: 0.034495648, w: 0.9993371}
+      scale: {x: 1.0001754, y: 0.99994683, z: 0.99997485}
+    - name: Pinky4_L
+      parentName: Pinky3_L
+      position: {x: 5.9604643e-10, y: 0.0003507947, z: 6.426126e-10}
+      rotation: {x: 0.0581044, y: 0.036989555, z: 0.22854714, w: 0.9710932}
+      scale: {x: 1.0012399, y: 0.9989097, z: 0.9998976}
+    - name: Pinky4_L_end
+      parentName: Pinky4_L
+      position: {x: -0, y: 0.00045204326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thumb1_L
+      parentName: Hand_L
+      position: {x: -0.00006520271, y: 0.00090415153, z: 0.00060954306}
+      rotation: {x: 0.37926322, y: -0.07850928, z: -0.017263088, w: 0.9217905}
+      scale: {x: 1.0000608, y: 1.0000128, z: 1.0000465}
+    - name: Thumb2_L
+      parentName: Thumb1_L
+      position: {x: -0, y: 0.00057489646, z: -2.2351741e-10}
+      rotation: {x: -0.031427346, y: 0.02082566, z: 0.005536447, w: 0.9992737}
+      scale: {x: 1.0000596, y: 0.9981939, z: 1.0018936}
+    - name: Thumb3_L
+      parentName: Thumb2_L
+      position: {x: -6.891787e-10, y: 0.0005228104, z: 1.11758706e-10}
+      rotation: {x: -0.017808579, y: -0.010953199, z: 0.027349537, w: 0.9994073}
+      scale: {x: 1.0003811, y: 0.9996954, z: 1.0000292}
+    - name: Thumb3_L_end
+      parentName: Thumb3_L
+      position: {x: -0, y: 0.00045821196, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Clavical_R
+      parentName: Spine2
+      position: {x: 1.16415315e-11, y: 0.0022581485, z: 9.895302e-11}
+      rotation: {x: 0.0008295507, y: 0.0009418172, z: -0.67833096, w: 0.73475546}
+      scale: {x: 1.0000045, y: 1.0000002, z: 1.0000017}
+    - name: Shoulder_R
+      parentName: Clavical_R
+      position: {x: -9.685754e-10, y: 0.0022388168, z: -2.4214386e-10}
+      rotation: {x: 0.0068883533, y: -0.0042842347, z: 0.04053159, w: 0.9991453}
+      scale: {x: 1.0000359, y: 1.0000186, z: 1.0000017}
+    - name: UpperArm_R
+      parentName: Shoulder_R
+      position: {x: 0.00029920592, y: 0.0005872364, z: 0.0000007494539}
+      rotation: {x: -0.007817426, y: 0.03432201, z: 0.0883082, w: -0.99547106}
+      scale: {x: 1.0000986, y: 1.0000488, z: 1.0000069}
+    - name: LowerArm_R
+      parentName: UpperArm_R
+      position: {x: 2.7939676e-10, y: 0.0037613527, z: -1.4901161e-10}
+      rotation: {x: -0.0012667606, y: -0.000005252659, z: -0.027574541, w: 0.99961895}
+      scale: {x: 1.0000741, y: 1.0000144, z: 0.9999928}
+    - name: Hand_R
+      parentName: LowerArm_R
+      position: {x: 0.0000000025704503, y: 0.0029178648, z: 2.2351741e-10}
+      rotation: {x: -0.00031761697, y: 0.00000008626239, z: -0.0039528906, w: 0.99999213}
+      scale: {x: 1.0000478, y: 1.0000426, z: 1.0000038}
+    - name: Index1_R
+      parentName: Hand_R
+      position: {x: -0.00015190839, y: 0.0010387514, z: 0.00042141153}
+      rotation: {x: 0.0053965505, y: 0.000019858298, z: 0.012639031, w: 0.9999056}
+      scale: {x: 1.0000677, y: 1.000071, z: 0.9999998}
+    - name: Index2_R
+      parentName: Index1_R
+      position: {x: 2.2351741e-10, y: 0.00083946047, z: 4.0978193e-10}
+      rotation: {x: 0.0057789683, y: -0.0014280052, z: -0.038888026, w: 0.9992259}
+      scale: {x: 1.0000796, y: 0.9999655, z: 1.0000064}
+    - name: Index3_R
+      parentName: Index2_R
+      position: {x: -5.401671e-10, y: 0.0006293076, z: -4.656613e-10}
+      rotation: {x: -0.0024075918, y: -0.004514199, z: -0.03634434, w: 0.9993262}
+      scale: {x: 1.0003564, y: 0.99970645, z: 0.99999654}
+    - name: Index4_R
+      parentName: Index3_R
+      position: {x: 3.72529e-10, y: 0.0004616516, z: 1.6763806e-10}
+      rotation: {x: -0.035108913, y: -0.0011908048, z: -0.23338172, w: 0.97175044}
+      scale: {x: 1.0014536, y: 0.9985825, z: 1.0000057}
+    - name: Index4_R_end
+      parentName: Index4_R
+      position: {x: -0, y: 0.00048091714, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Middle1_R
+      parentName: Hand_R
+      position: {x: -0.00016804032, y: 0.0009991843, z: 0.00009847197}
+      rotation: {x: 0.0006399778, y: -0.00000019625415, z: 0.012812122, w: 0.9999178}
+      scale: {x: 1.000073, y: 1.0000877, z: 0.9999993}
+    - name: Middle2_R
+      parentName: Middle1_R
+      position: {x: -3.7252902e-11, y: 0.0008397084, z: 0.0000000010430813}
+      rotation: {x: -0.00255456, y: -0.00016476585, z: -0.03893569, w: 0.9992385}
+      scale: {x: 1.0000318, y: 0.99993324, z: 1.0000014}
+    - name: Middle3_R
+      parentName: Middle2_R
+      position: {x: -3.8184225e-10, y: 0.0008219361, z: 1.11758706e-10}
+      rotation: {x: -0.0015124895, y: 0.00039353652, z: -0.035564642, w: 0.99936616}
+      scale: {x: 1.0003448, y: 0.9996847, z: 1.0000117}
+    - name: Middle4_R
+      parentName: Middle3_R
+      position: {x: -1.862645e-10, y: 0.000575652, z: 1.3038516e-10}
+      rotation: {x: -0.02014951, y: 0.0022711223, z: -0.21952619, w: 0.9753959}
+      scale: {x: 1.001425, y: 0.99863774, z: 0.9999695}
+    - name: Middle4_R_end
+      parentName: Middle4_R
+      position: {x: -0, y: 0.00048091714, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ring1_R
+      parentName: Hand_R
+      position: {x: -0.00018116013, y: 0.001038267, z: -0.00022541553}
+      rotation: {x: -0.002686945, y: 0.00020386456, z: 0.018823966, w: 0.9998192}
+      scale: {x: 1.0000509, y: 1.0000627, z: 1.0000052}
+    - name: Ring2_R
+      parentName: Ring1_R
+      position: {x: -3.7252902e-11, y: 0.00083946146, z: 1.3038516e-10}
+      rotation: {x: 0.0065294355, y: 0.0008419798, z: -0.03892578, w: 0.9992205}
+      scale: {x: 1.0001422, y: 0.9999908, z: 1.0000119}
+    - name: Ring3_R
+      parentName: Ring2_R
+      position: {x: -9.872019e-10, y: 0.0005620632, z: -9.3132255e-12}
+      rotation: {x: 0.0012483662, y: -0.0030032578, z: -0.0358322, w: 0.9993525}
+      scale: {x: 1.0003487, y: 0.99974614, z: 0.99998957}
+    - name: Ring4_R
+      parentName: Ring3_R
+      position: {x: 7.4505804e-11, y: 0.0004796655, z: 2.4214386e-10}
+      rotation: {x: 0.021028372, y: -0.01473678, z: -0.22528368, w: 0.9739548}
+      scale: {x: 1.0017506, y: 0.9983997, z: 0.9999736}
+    - name: Ring4_R_end
+      parentName: Ring4_R
+      position: {x: -0, y: 0.00048091682, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pinky1_R
+      parentName: Hand_R
+      position: {x: -0.00013259232, y: 0.0010963993, z: -0.0004843041}
+      rotation: {x: -0.01352857, y: 0.0013588431, z: 0.031368338, w: 0.99941546}
+      scale: {x: 1.0000299, y: 1.0000472, z: 1.0000011}
+    - name: Pinky2_R
+      parentName: Pinky1_R
+      position: {x: -4.0978193e-10, y: 0.0006830686, z: -2.2351741e-10}
+      rotation: {x: 0.023192462, y: 0.00436167, z: -0.03259548, w: 0.99919}
+      scale: {x: 1.0000812, y: 0.99987626, z: 1.0001119}
+    - name: Pinky3_R
+      parentName: Pinky2_R
+      position: {x: -0.00000000115484, y: 0.0004675089, z: -2.1420418e-10}
+      rotation: {x: 0.009378198, y: -0.006896827, z: -0.03447885, w: 0.9993376}
+      scale: {x: 1.0003037, y: 0.9998442, z: 0.99999684}
+    - name: Pinky4_R
+      parentName: Pinky3_R
+      position: {x: 4.842877e-10, y: 0.0003507962, z: 9.313225e-11}
+      rotation: {x: 0.058104448, y: -0.036989555, z: -0.22854717, w: 0.9710932}
+      scale: {x: 1.00188, y: 0.99824667, z: 0.99985933}
+    - name: Pinky4_R_end
+      parentName: Pinky4_R
+      position: {x: -0, y: 0.00045204326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thumb1_R
+      parentName: Hand_R
+      position: {x: 0.000065203756, y: 0.0009041506, z: 0.0006095429}
+      rotation: {x: 0.37490192, y: 0.08322817, z: 0.0042781625, w: 0.9233111}
+      scale: {x: 1.0000457, y: 0.9999692, z: 1.0000591}
+    - name: Thumb2_R
+      parentName: Thumb1_R
+      position: {x: 0.0000000024959443, y: 0.0005748964, z: 5.5879353e-11}
+      rotation: {x: -0.031416498, y: -0.020826908, z: -0.005535372, w: 0.999274}
+      scale: {x: 1.0000567, y: 0.99776655, z: 1.0022901}
+    - name: Thumb3_R
+      parentName: Thumb2_R
+      position: {x: 2.9802322e-10, y: 0.00052281073, z: 9.080395e-10}
+      rotation: {x: -0.01771991, y: 0.010960784, z: -0.027270824, w: 0.999411}
+      scale: {x: 1.0005709, y: 0.9992113, z: 1.00031}
+    - name: Thumb3_R_end
+      parentName: Thumb3_R
+      position: {x: -0, y: 0.00045821196, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BackCover
+      parentName: Spine2
+      position: {x: -4.0978193e-10, y: -0.0005806078, z: -0.0018417024}
+      rotation: {x: 0.1225096, y: -0.00000009750683, z: -0.000000047529653, w: 0.99246734}
+      scale: {x: 1, y: 1, z: 1.0000031}
+    - name: BackCover_end
+      parentName: BackCover
+      position: {x: -0, y: 0.004404945, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg_L
+      parentName: Hips
+      position: {x: -0.0005958055, y: 0.0011750561, z: -0.00009394435}
+      rotation: {x: -0.000000241099, y: -2.0012635e-10, z: 0.9990312, w: 0.044008248}
+      scale: {x: 1.000008, y: 1.0000085, z: 0.9999942}
+    - name: LowerLeg_L
+      parentName: UpperLeg_L
+      position: {x: 2.6077032e-10, y: 0.0058704964, z: -1.11758706e-10}
+      rotation: {x: -0.0013261477, y: -0.00005846438, z: 0.044008937, w: 0.99903023}
+      scale: {x: 1.0000019, y: 0.999985, z: 1.0000001}
+    - name: Foot_L
+      parentName: LowerLeg_L
+      position: {x: -4.842877e-10, y: 0.0050742584, z: 0}
+      rotation: {x: 0.57129526, y: 0.00000021454981, z: 0.000000406817, w: 0.82074463}
+      scale: {x: 0.99999964, y: 1.0000026, z: 1.0000072}
+    - name: Toe_L
+      parentName: Foot_L
+      position: {x: 1.3038516e-10, y: 0.0017394769, z: -3.1664968e-10}
+      rotation: {x: 0.17769378, y: 0.000000018527686, z: 0.00000016069522, w: 0.98408586}
+      scale: {x: 1.0000186, y: 1.0000012, z: 1.0000126}
+    - name: Toe_L_end
+      parentName: Toe_L
+      position: {x: -0, y: 0.0016075056, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Heel_L
+      parentName: LowerLeg_L
+      position: {x: -5.9604643e-10, y: 0.005074252, z: -0.0000000062584875}
+      rotation: {x: 0.4994534, y: 0.5005468, z: -0.5000151, w: -0.4999842}
+      scale: {x: 1.0000144, y: 0.99999976, z: 1.0000132}
+    - name: HeelSpring_L
+      parentName: Heel_L
+      position: {x: 3.7252902e-11, y: 0.0006490978, z: -2.2351741e-10}
+      rotation: {x: 0.000792235, y: 0.0000015497205, z: 0.7050753, w: -0.7091321}
+      scale: {x: 1.0000222, y: 1.00005, z: 1.0000073}
+    - name: HeelSpring_L_end
+      parentName: HeelSpring_L
+      position: {x: -0, y: 0.0008926762, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calf_L
+      parentName: Heel_L
+      position: {x: 3.7252902e-11, y: 0.0006490978, z: -2.2351741e-10}
+      rotation: {x: 0.00069312373, y: 0.0000004023313, z: 0.6157011, w: 0.7879795}
+      scale: {x: 1.000036, y: 0.99999714, z: 1.0000292}
+    - name: CalfTop_L
+      parentName: Calf_L
+      position: {x: -0.000019652247, y: 0.0031415422, z: 0.000000022053719}
+      rotation: {x: 0.0011267287, y: 0.0000007653128, z: 0.99997497, w: -0.0069923103}
+      scale: {x: 1.0001593, y: 1.00003, z: 1.0000376}
+    - name: CalfTop_L_end
+      parentName: CalfTop_L
+      position: {x: -0, y: 0.0014050789, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg_R
+      parentName: Hips
+      position: {x: 0.00071896665, y: 0.0009917682, z: -1.3969838e-10}
+      rotation: {x: 0.00000023201287, y: -0.00000008920684, z: 0.9990312, w: -0.044008233}
+      scale: {x: 0.9999978, y: 1.0000085, z: 1.0000001}
+    - name: LowerLeg_R
+      parentName: UpperLeg_R
+      position: {x: 2.0489097e-10, y: 0.0058704973, z: -2.7939676e-10}
+      rotation: {x: -0.0013261762, y: 0.000058496036, z: -0.044008944, w: 0.99903023}
+      scale: {x: 1.000002, y: 0.9999913, z: 1.0000001}
+    - name: Foot_R
+      parentName: LowerLeg_R
+      position: {x: -8.032657e-11, y: 0.005074258, z: 1.839362e-10}
+      rotation: {x: 0.5712953, y: -0.00000020327573, z: -0.0000003367168, w: 0.8207446}
+      scale: {x: 0.99998724, y: 0.9999996, z: 1.0000026}
+    - name: Toe_R
+      parentName: Foot_R
+      position: {x: -7.887138e-11, y: 0.0017394773, z: 1.2107193e-10}
+      rotation: {x: 0.17769387, y: -0.00000006166587, z: -0.00000015208906, w: 0.9840858}
+      scale: {x: 1.0000362, y: 0.9999936, z: 1.0000393}
+    - name: Toe_R_end
+      parentName: Toe_R
+      position: {x: -0, y: 0.0016075056, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Heel_R
+      parentName: LowerLeg_R
+      position: {x: -2.3515895e-10, y: 0.005074251, z: -0.000000006156042}
+      rotation: {x: -0.49945334, y: 0.5005469, z: -0.5000151, w: 0.49998423}
+      scale: {x: 1.000012, y: 1.0000093, z: 1.0000132}
+    - name: HeelSpring_R
+      parentName: Heel_R
+      position: {x: -3.958121e-11, y: 0.0006490975, z: 1.7724232e-10}
+      rotation: {x: 0.000792235, y: -0.0000014901158, z: -0.7050753, w: -0.709132}
+      scale: {x: 1.0000167, y: 1.0000405, z: 1.0000051}
+    - name: HeelSpring_R_end
+      parentName: HeelSpring_R
+      position: {x: -0, y: 0.0008926762, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calf_R
+      parentName: Heel_R
+      position: {x: -3.958121e-11, y: 0.0006490975, z: 1.7724232e-10}
+      rotation: {x: 0.0006931945, y: -0.00000038743013, z: -0.615701, w: 0.7879796}
+      scale: {x: 1.000035, y: 0.99998915, z: 1.0000262}
+    - name: CalfTop_R
+      parentName: Calf_R
+      position: {x: 0.000019652145, y: 0.0031415422, z: 0.000000022361055}
+      rotation: {x: 0.0011266405, y: -0.00000077265815, z: -0.9999749, w: -0.0069925776}
+      scale: {x: 1.0001185, y: 1.0000021, z: 0.9999994}
+    - name: CalfTop_R_end
+      parentName: CalfTop_R
+      position: {x: -0, y: 0.0014050789, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightBackPlate
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.10050576, y: 1.6367517, z: -0.10344733}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftChest
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.11169422, y: 1.618402, z: 0.055943847}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RibCage
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.0010239071, y: 1.4818984, z: -0.003530079}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightChest
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.11151649, y: 1.61906, z: 0.05596487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_MidBackPlate
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.00024137324, y: 1.7302662, z: -0.16426723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftBackPlate
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.097256966, y: 1.6319073, z: -0.109912746}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightArmB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.28684863, y: 1.6059556, z: -0.005867299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightArmA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3514692, y: 1.6441269, z: -0.010949962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightShoulder
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3011276, y: 1.8270096, z: -0.004285607}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftShoulder
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.30080807, y: 1.8288686, z: -0.0071265413}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftArmA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.3514127, y: 1.6434349, z: -0.0081660235}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftArmB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.28587243, y: 1.6092846, z: -0.004392707}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftElbowA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.31736436, y: 1.4144499, z: 0.06832917}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftElbowB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.32038388, y: 1.4057143, z: -0.07112966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftForeArm
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.31175503, y: 1.2434204, z: 0.0009616395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftHand
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.34841073, y: 0.9812326, z: -0.0059547764}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftThumbA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.312835, y: 1.0153873, z: 0.07716017}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftThumbB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.30248445, y: 0.95621693, z: 0.10062514}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftThumbC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.2897445, y: 0.90503293, z: 0.10364134}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftIndexA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.33553666, y: 0.90057945, z: 0.043363027}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftIndexB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.31878132, y: 0.8444032, z: 0.043977983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftMidC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.28616995, y: 0.7817109, z: 0.009276812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftIndexC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.29077742, y: 0.800086, z: 0.045358498}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftMidB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.31655228, y: 0.827275, z: 0.009296471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftMidA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.33271593, y: 0.8929527, z: 0.00934822}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftRingC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.29317114, y: 0.8126233, z: -0.023853907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftPinkyB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.32076645, y: 0.8733224, z: -0.055737037}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftRingB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.3208962, y: 0.85410666, z: -0.024789624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftRingA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.3364228, y: 0.9050986, z: -0.025688576}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftPinkyA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.33300918, y: 0.9167735, z: -0.057194218}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftPinkyC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.29667318, y: 0.8395677, z: -0.050995186}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftLeg
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.12133624, y: 0.90520406, z: 0.002841716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_Pelvis
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.00090165844, y: 1.2019085, z: -0.007091863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightLeg
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.122522615, y: 0.9077357, z: 0.0017057391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightThumbA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.31275323, y: 1.0160725, z: 0.07699786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightHand
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.34915897, y: 0.98238534, z: -0.0040444005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightThumbB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3026194, y: 0.95716476, z: 0.10046946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightThumbC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.2893676, y: 0.9052398, z: 0.10300502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightIndexA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3357616, y: 0.9011853, z: 0.04329443}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightMidA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.33361736, y: 0.8963187, z: 0.009777337}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightPinkyA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.33320376, y: 0.91624886, z: -0.057881646}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightRingA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.33532298, y: 0.9052954, z: -0.02554094}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightRingB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3209067, y: 0.85541576, z: -0.025462274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightPinkyB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3210924, y: 0.87471294, z: -0.05684132}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightMidB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.31617433, y: 0.8279845, z: 0.009761964}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightIndexB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3182811, y: 0.84471035, z: 0.04446473}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightIndexC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.29071316, y: 0.8004505, z: 0.044876773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightMidC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.28464326, y: 0.7809037, z: 0.009590912}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightRingC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.29185966, y: 0.8126556, z: -0.023309838}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightPinkyC
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.29632825, y: 0.8395376, z: -0.051383704}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightElbowB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3182395, y: 1.4091508, z: -0.072162345}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightForeArm
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.31264243, y: 1.2408369, z: 0.0019399425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightElbowA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.31731835, y: 1.4127476, z: 0.07135966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightKneeA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.20781294, y: 0.6125333, z: -0.0006941509}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightKneeB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.037939668, y: 0.6137998, z: -0.0017033722}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftKneeA
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.20906612, y: 0.6100232, z: -0.0002628242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftKneeB
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.0375951, y: 0.6159971, z: -0.0010171697}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftCalf
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.12422796, y: 0.3596797, z: -0.08655733}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightCalf
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.12066613, y: 0.3583783, z: -0.08688833}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightShin
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.1221157, y: 0.3229163, z: 0.021719271}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftShin
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.121693656, y: 0.31885988, z: 0.021748848}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightAnkle
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.12164301, y: 0.12746982, z: 0.040469423}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftAnkle
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.12030428, y: 0.12566583, z: 0.039021358}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_RightToe
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.12257466, y: 0.045620244, z: 0.24394631}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BodyArmor_Version1_Parts_LeftToe
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.12012427, y: 0.044746507, z: 0.24185117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Version1_Parts_Back
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.000000004776486, y: 1.930269, z: -0.010906417}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Version1_Parts_FrontLeft
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.05109578, y: 1.8996489, z: 0.064230755}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Version1_Parts_FrontRight
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.051096015, y: 1.8995601, z: 0.06428048}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_RightShoulder
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.22913425, y: 1.7983805, z: 0.00020010915}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_Core
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.000057732137, y: 1.6133323, z: 0.003396992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_RightArm
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.3011271, y: 1.6462945, z: -0.000046057812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_RightForearm
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.31740513, y: 1.3923239, z: -0.000091232105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_RightHand
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.31672546, y: 0.922474, z: 0.008252535}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_LeftHand
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.31672546, y: 0.922474, z: 0.008252535}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_LeftForearm
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.31740513, y: 1.3923239, z: -0.000091232105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_LeftArm
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.30048713, y: 1.6506667, z: -0.00004931646}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_Spine
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.00014871256, y: 1.4114598, z: 0.0016910149}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_Head
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.0000016973814, y: 1.8766842, z: 0.018292302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_LeftShoulder
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.22696634, y: 1.7978668, z: 0.00021560646}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_LeftFoot
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.12262465, y: 0.048980515, z: 0.012726619}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_RightFoot
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.12262465, y: 0.048980515, z: 0.012726619}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_RightLeg
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.10097913, y: 0.926792, z: -0.0046451106}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_LeftLeg
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.100979105, y: 0.9267919, z: -0.0046451106}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_LeftLowerLeg
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: -0.12282894, y: 0.37195885, z: -0.070133425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechanicism_Parts_RightLowerLeg
+      parentName: GeurillaDroid_Parts(Clone)
+      position: {x: 0.12282894, y: 0.37195885, z: -0.070133425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

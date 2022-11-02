@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713e0022c0ffe974bb14d5e0611b0797, type: 3}
+  m_Name: Liminal Space
+  m_EditorClassIdentifier: 
+  m_RootIndex: 0
+  m_Manager:
+    rid: 7447676867041296384
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7447676867041296384
+      type: {class: SequenceManager, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Data:
+        - rid: 7447676867041296385
+        - rid: 7447676867041296386
+        - rid: 7447676867041296387
+        - rid: 7447676867041296388
+        - rid: 7447676867041296389
+        m_AvailableIndices:
+          rid: -2
+    - rid: 7447676867041296385
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: Liminal Space
+        m_Fps: 60
+        m_Start: 0
+        m_Duration: 6
+        m_Parent: -1
+        m_Children: 01000000020000000300000004000000
+        m_Timeline: {fileID: 11400000, guid: 4e8cbe47075adfe4b8dbcdfb9a683941, type: 2}
+        m_ChildrenTrack: {fileID: 1727240210919847833, guid: 4e8cbe47075adfe4b8dbcdfb9a683941, type: 2}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 0}
+    - rid: 7447676867041296386
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S00
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 81f24984048c1a942aa26b4517dd24fd, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 5987240396910826344, guid: 4e8cbe47075adfe4b8dbcdfb9a683941, type: 2}
+    - rid: 7447676867041296387
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S01
+        m_Fps: -1
+        m_Start: 2
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: f82ed5aa95bd4d54aafd52f27f6a9a9a, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 3912662375776409960, guid: 4e8cbe47075adfe4b8dbcdfb9a683941, type: 2}
+    - rid: 7447676867041296388
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S02
+        m_Fps: -1
+        m_Start: 4
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 4d9e53fc5cbfa8e4aae98ec3e6ea9cd4, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: -6114671587717643831, guid: 4e8cbe47075adfe4b8dbcdfb9a683941, type: 2}
+    - rid: 7447676867041296389
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: S03
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 4fb1749edafcf3b4a91d944403af1793, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 3162653594880703526, guid: 4e8cbe47075adfe4b8dbcdfb9a683941, type: 2}
